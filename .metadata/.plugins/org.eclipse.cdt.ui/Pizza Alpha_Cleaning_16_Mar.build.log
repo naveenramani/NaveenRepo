@@ -1,0 +1,10 @@
+12:09:30 **** Incremental Build of configuration Debug for project Pizza Alpha_Cleaning_16_Mar ****
+make -j4 all 
+arm-none-eabi-size   Pizza\ Alpha_Cleaning_16_Mar.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 147676	    900	 116548	 265124	  40ba4	Pizza Alpha_Cleaning_16_Mar.elf
+Finished building: default.size.stdout
+ 
+
+12:09:30 Build Finished. 0 errors, 0 warnings. (took 796ms)
+

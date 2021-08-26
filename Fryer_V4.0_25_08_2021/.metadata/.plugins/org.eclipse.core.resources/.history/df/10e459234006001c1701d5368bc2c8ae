@@ -1,0 +1,31 @@
+/*
+ * macro.h
+ *
+ *  Created on: 26-Aug-2021
+ *      Author: Naveen
+ */
+
+#ifndef INC_MACRO_H_
+#define INC_MACRO_H_
+
+
+
+const char swversion[8] = "V4.0 ";
+
+
+#define MFPLFryerLogo	0
+#define BFFLogo			1
+
+#define	Logo		MFPLFryerLogo
+
+
+const char menu_1[] = "MENU 1";
+const char menu_2[] = "MENU 2";
+const char menu_3[] = "MENU 3";
+const char menu_4[] = "MENU 4";
+const char menu_5[] = "MENU 5";
+const char menu_6[] = "MENU 6";
+const char menu_7[] = "MENU 7";
+const char menu_8[] = "MENU 8";
+
+#endif /* INC_MACRO_H_ */

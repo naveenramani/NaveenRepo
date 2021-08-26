@@ -1,0 +1,10 @@
+15:23:02 **** Incremental Build of configuration Debug for project Wokie_Android ****
+make -j4 all 
+arm-none-eabi-size   Wokie_Android.elf 
+   text	   data	    bss	    dec	    hex	filename
+  88500	    884	  44308	 133692	  20a3c	Wokie_Android.elf
+Finished building: default.size.stdout
+ 
+
+15:23:03 Build Finished. 0 errors, 0 warnings. (took 573ms)
+

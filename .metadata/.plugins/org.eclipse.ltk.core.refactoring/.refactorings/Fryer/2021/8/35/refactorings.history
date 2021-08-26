@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Fryer/Core/Inc/build_number&apos; to &apos;build_number.h&apos;" description="Rename resource &apos;build_number&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/build_number" name="build_number.h" stamp="1629704481128" updateReferences="true"/>
+</session>

@@ -1,0 +1,21 @@
+Change											date					Done By
+added #if #endif for menu, eeprom				23Aug21					Naveen
+/*//Customer Menu
+#define MFPLFryer		0
+#define WowMomo_Veg		1
+#define WowMomo_NonVeg	2
+
+
+//generate only EEPROM File
+#define NO		1
+#define YES		0
+
+
+//Change this according to above Customer Menu
+#define customerMenu 	MFPLFryer
+
+#define eepromWrite		NO*/
+
+
+changed menu name display in portion screen
+

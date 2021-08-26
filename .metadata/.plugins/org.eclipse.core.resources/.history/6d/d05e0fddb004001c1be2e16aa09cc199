@@ -1,0 +1,91 @@
+/*
+ * macro.h
+ *
+ *  Created on: 24-Aug-2021
+ *      Author: Naveen
+ */
+
+#ifndef INC_MACRO_H_
+#define INC_MACRO_H_
+
+
+/***************************************Macro's for File Upload*************************/
+//Software version number
+const char swversion[8] = "V4.0 ";
+
+//Customer Menu
+#define MFPLFryer		0
+#define WowMomo_Veg		1
+#define WowMomo_NonVeg	2
+#define BiggiesBurger	3
+
+#define MFPLFryerLogo 		0
+#define BestFrenchFriesLogo	1
+
+//generate only EEPROM File  NO- full program, YES-Only EEPROM File
+#define NO		1
+#define YES		0
+
+
+#define Logo  			MFPLFryerLogo //Logo to be displayed while booting
+#define customerMenu 	MFPLFryer	  //customer menu as per requirement refer from line 14 and
+									  //add menu from line 35
+#define eepromWrite		NO			  //generate only EEPROM file for menu
+/***************************************Macro's for File Upload*************************/
+
+
+/******************************Macro's for adding Customer Menu*************************/
+#if customerMenu == MFPLFryer
+
+const char menu_1[] = "MENU 1";
+const char menu_2[] = "MENU 2";
+const char menu_3[] = "MENU 3";
+const char menu_4[] = "MENU 4";
+const char menu_5[] = "MENU 5";
+const char menu_6[] = "MENU 6";
+const char menu_7[] = "MENU 7";
+const char menu_8[] = "MENU 8";
+
+#elif customerMenu == WowMomo_Veg
+
+const char menu_1[] = "Paneer Momo";//"MENU 1";
+const char menu_2[] = "Veg Classic";//""MENU 2";
+const char menu_3[] = "Veg Darjeeling";//""MENU 3";
+const char menu_4[] = "Corn Cheese";//""MENU 4";
+const char menu_5[] = "Veg Supreme";//""MENU 5";
+const char menu_6[] = "MENU 6";
+const char menu_7[] = "MENU 7";
+const char menu_8[] = "MENU 8";
+
+
+#elif customerMenu == WowMomo_NonVeg
+
+const char menu_1[] = "Chckn Darjeeling";//"MENU 1";
+const char menu_2[] = "Chckn Classic";//""MENU 2";
+const char menu_3[] = "Chckn Cheese";//""MENU 3";
+const char menu_4[] = "Chckn Schzewan";//""MENU 4";
+const char menu_5[] = "Chckn Supreme";//""MENU 5";
+const char menu_6[] = "MENU 6";
+const char menu_7[] = "MENU 7";
+const char menu_8[] = "MENU 8";
+
+
+#elif customerMenu == BiggiesBurger
+
+const char menu_1[] = "Fries";//"MENU 1";
+const char menu_2[] = "Crinkle Cut Fries";//""MENU 2";
+const char menu_3[] = "Veg / Potato Patty";//""MENU 3";
+const char menu_4[] = "Potato Veg";//""MENU 4";
+const char menu_5[] = "Pizza Fingers";//""MENU 5";
+const char menu_6[] = "Paneer Patty";//"MENU 6"
+const char menu_7[] = "Chilli Herbs";//"MENU 7"
+const char menu_8[] = "Chicken Popcorn";//"MENU 8"
+const char menu_9[] = "Breaded Wings";//"MENU 9"
+
+#endif
+
+/******************************Macro's for adding Customer Menu*************************/
+
+
+
+#endif /* INC_MACRO_H_ */
